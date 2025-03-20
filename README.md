@@ -1,2 +1,2 @@
-# calendar-check
+# react-event-calendar
 Calendar with reactjs
