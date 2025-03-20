@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # react-event-calendar
+=======
+# React event calendar
+>>>>>>> 80fd290 (Initial commit)
 
 # Getting Started with Create React App
 
