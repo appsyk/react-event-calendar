@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+.rbc-row-segment {
+  margin: 1.5px 0;
+  padding: 0 4px 1px 4px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rbc-date-cell {
+  text-align: left !important;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.rbc-date-cell.rbc-now.rbc-now .rbc-button-link{
+ background-color: #4B5563;
+ color: white;
+ border-radius: 100%;
+ min-width: 28px;
+ min-height: 28px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.rbc-header {
+  padding: 3px 3px 6px 3px !important;
 }
 
-.App-link {
-  color: #61dafb;
+.rbc-time-content {
+  display: none !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rbc-time-header {
+  height: 100%;
+}
+
+/* to show "more" option below in cell */
+.rbc-row-content {
+  min-height: 110px !important;
+}
+
+.rbc-month-row {
+  overflow: visible !important;
+}
+/* ---- */
+
+.rbc-button-link.rbc-show-more {
+  color: #161616;
+  text-decoration: underline;
+  font-weight: 500;
 }
